@@ -12,12 +12,12 @@ then
   source ~/.localrc
 fi
 
-# all of our zsh files
+# all of our bash files
 typeset -U config_files
-config_files=($ZSH/**/*.zsh)
+config_files=($BASH/**/*.bash)
 
 # load the path files
-for file in ${(M)config_files:#*/path.zsh}
+for file in ${(M)config_files:#*/path.bash}
 do
   source $file
 done

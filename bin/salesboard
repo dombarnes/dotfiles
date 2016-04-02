@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+/Users/domster83/.rbenv/shims/ruby /Users/domster83/Dropbox/Public/statusboard_data/SalesBoard/salesboard.rb

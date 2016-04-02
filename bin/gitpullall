@@ -1,0 +1,12 @@
+#!/bin/bash
+
+red='\033[0;32m'
+NC='\033[0m'
+
+for D in `find . -type d -maxdepth 1 -mindepth 1`
+do
+    cd $(basename "$D")
+    echo -e "${red}$(basename "$D"${NC})"
+    git pull
+    cd ..
+done
