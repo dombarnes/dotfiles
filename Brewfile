@@ -18,6 +18,7 @@ brew 'wget'
 
 # Development
 brew 'couchdb'
+brew 'coreutils'
 brew 'dnvm'
 brew 'forego'
 brew 'go'

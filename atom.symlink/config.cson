@@ -6,6 +6,8 @@
       "build-markdown"
       "linter-rails-best-practices"
     ]
+    followSymlinks: false
+    hideGitIgnoredFiles: true
     ignoredNames: [
       ".DS_Store"
       ".git/*"
@@ -14,6 +16,24 @@
     themes: [
       "seti-ui"
       "seti-syntax"
+      "unity-ui"
+      "glacier-syntax"
+    ]
+  editor:
+    fontFamily: "Menlo"
+    invisibles: {}
+    showIndentGuide: true
+    softWrapAtPreferredLineLength: true
+  "go-plus":
+    goPath: "/Users/holman/Code/go"
+  "release-notes":
+    viewedVersion: "0.89.0"
+  "spell-check":
+    grammars: [
+      "text.plain"
+      "source.gfm"
+      "text.git-commit"
+      "text.html.basic"
     ]
     "spell-check":
       grammars: [
