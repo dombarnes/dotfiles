@@ -1,36 +1,48 @@
 "*":
-  editor:
-    showIndentGuide: true
-    fontFamily: "Menlo"
-    invisibles: {}
-    fontSize: 15
-    softWrapAtPreferredLineLength: true
+  build: {}
   core:
-    ignoredNames: [
-      ".bundle"
-      ".git"
-      "log"
-      "repositories"
-      "tmp"
-      "vendor"
-    ]
-    themes: [
-      "unity-ui"
-      "glacier-syntax"
-    ]
-    hideGitIgnoredFiles: true
     disabledPackages: [
-      "background-tips"
-      "exception-reporting"
-      "metrics"
+      "language-markdown"
+      "build-markdown"
+      "linter-rails-best-practices"
     ]
-  "spell-check":
-    grammars: [
-      "text.plain"
-      "source.gfm"
-      "text.git-commit"
+    ignoredNames: [
+      ".DS_Store"
+      ".git/*"
     ]
+    projectHome: "/Users/domster83/projects"
+    themes: [
+      "seti-ui"
+      "seti-syntax"
+    ]
+    "spell-check":
+      grammars: [
+        "text.plain"
+        "source.gfm"
+        "text.git-commit"
+      ]
+  editor:
+    fontFamily: "Input Mono"
+    fontSize: 15
+    invisibles: {}
+    showIndentGuide: true
+    softWrapAtPreferredLineLength: true
+  "exception-reporting":
+    userId: "e1911b41-0ac5-1ea6-094e-908069de8592"
+  "git-plus": {}
+  jekyll:
+    serverPort: 4000
+  metrics:
+    userId: "1064974933e95a3a5f493720c87febecd064d5f7"
+  minimap: {}
+  "release-notes":
+    viewedVersion: "0.95.0"
+  tabs:
+    showIcons: true
+  "tree-view":
+    hideIgnoredNames: true
+    hideVcsIgnoredFiles: false
   welcome:
     showOnStartup: false
-  "release-notes":
-    viewedVersion: "0.89.0"
+  whitespace:
+    removeTrailingWhitespace: false
