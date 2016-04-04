@@ -1,3 +1,2 @@
 export POW_DOMAINS=dev,test
-export PATH="/Users/domster83/.rbenv/shims:/Users/domster83/.rbenv/bin:$PATH"
 export POW_TIMEOUT=600000
